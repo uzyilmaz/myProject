@@ -58,5 +58,16 @@ public class Actions {
                 "for student window enter 1\n" +
                 "for teacher window enter 2\n" +
                 "for settings enter 3");
+        String choice=scan.next();
+        switch (choice){
+            case "1":
+                break;
+            case "2":
+                break;
+            case "3":
+                break;
+            default:
+                break;
+        }
     }
 }
