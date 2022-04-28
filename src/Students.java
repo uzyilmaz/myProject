@@ -20,6 +20,6 @@ public class Students extends Datas{
     public String toString() {
         return "Students{" +
                 "studentNum='" + studentNum + '\'' +
-                '}';
+                '}'+ super.toString();
     }
 }
